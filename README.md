@@ -1,22 +1,21 @@
-# minetrox-website
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MineTrox - Citybuild Server</title>
+  <title>MineTrox.de – Dein Minecraft Citybuild Server</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
-      background-color: #1e1e1e;
+      background-color: #121212;
       color: #f0f0f0;
     }
     header {
       text-align: center;
-      padding: 60px 20px;
-      background-color: #111;
+      padding: 40px 20px;
+      background-color: #1e1e1e;
     }
     header img {
       width: 300px;
@@ -35,6 +34,7 @@
       color: #00ffcc;
       border-bottom: 2px solid #00ffcc;
       padding-bottom: 10px;
+      margin-bottom: 20px;
     }
     .features, .rules {
       display: flex;
@@ -43,7 +43,7 @@
     }
     .feature, .rule {
       flex: 1 1 45%;
-      background: #2a2a2a;
+      background: #222;
       padding: 20px;
       border-radius: 8px;
     }
@@ -60,7 +60,7 @@
     footer {
       text-align: center;
       padding: 30px;
-      background-color: #111;
+      background-color: #1a1a1a;
       font-size: 14px;
       color: #888;
     }
@@ -74,62 +74,62 @@
 <body>
 
 <header>
-  <img src="1020D897-80DC-4A50-BA64-2DFDDC72F65B.png" alt="MineTrox Logo" />
+  <img src="logo.png" alt="MineTrox Logo" />
   <p>Citybuild Server | Jetzt beitreten: <strong>play.minetrox.de</strong></p>
 </header>
 
 <section>
-  <h2>Was ist MineTrox?</h2>
-  <p>MineTrox ist dein Minecraft Citybuild Server mit einzigartigen Features, einer tollen Community und aktiven Admins. Baue deine Stadt, handle mit Spielern und gewinne epische Events!</p>
+  <h2>Willkommen auf MineTrox</h2>
+  <p>MineTrox.de ist dein Minecraft Citybuild Server mit einer aktiven Community, fairer Wirtschaft und einzigartigen Features. Egal ob du bauen, handeln oder Events gewinnen willst – hier bist du genau richtig!</p>
 </section>
 
 <section>
-  <h2>Features</h2>
+  <h2>Unsere Features</h2>
   <div class="features">
     <div class="feature">
       <h3>Citybuild mit Plot-System</h3>
-      <p>Baue dein Traumhaus auf sicheren Grundstücken mit eigenem Schutzsystem.</p>
+      <p>Baue sicher auf deinem eigenen Grundstück – allein oder mit Freunden!</p>
     </div>
     <div class="feature">
       <h3>Wirtschaft & Shops</h3>
-      <p>Starte deinen eigenen Shop, verkaufe Items und verdiene Ingame-Money!</p>
+      <p>Eröffne deinen eigenen Shop, handle mit anderen Spielern und verdiene Coins.</p>
     </div>
     <div class="feature">
-      <h3>Events & Belohnungen</h3>
-      <p>Erlebe regelmäßige Events und hol dir tolle Belohnungen und Ränge.</p>
+      <h3>Regelmäßige Events</h3>
+      <p>Spannende PvP-, Bau- und Community-Events mit tollen Belohnungen.</p>
     </div>
     <div class="feature">
       <h3>Aktives Team</h3>
-      <p>Freundliche Moderatoren und Admins helfen dir bei Fragen jederzeit weiter.</p>
+      <p>Unsere Teammitglieder helfen dir jederzeit weiter – freundlich & fair!</p>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>Regeln</h2>
+  <h2>Regeln (Kurzfassung)</h2>
   <div class="rules">
     <div class="rule">
       <h3>1. Kein Griefing</h3>
-      <p>Beschädige keine fremden Grundstücke oder Gebäude.</p>
+      <p>Respektiere fremdes Eigentum – keine Zerstörung!</p>
     </div>
     <div class="rule">
-      <h3>2. Kein Hacking</h3>
-      <p>Verbotene Clients oder Hacks führen zu einem Bann.</p>
+      <h3>2. Keine Hacks</h3>
+      <p>Verbotene Clients und Mods sind untersagt.</p>
     </div>
     <div class="rule">
       <h3>3. Respektvoller Umgang</h3>
-      <p>Beleidigungen und toxisches Verhalten sind tabu.</p>
+      <p>Kein Mobbing, Rassismus oder toxisches Verhalten.</p>
     </div>
     <div class="rule">
-      <h3>4. Keine Fremdwerbung</h3>
-      <p>Werbung für andere Server ist nicht erlaubt.</p>
+      <h3>4. Keine Werbung</h3>
+      <p>Fremdwerbung für andere Server oder Seiten ist verboten.</p>
     </div>
   </div>
 </section>
 
-<section style="text-align:center;">
-  <h2>Join unserer Community!</h2>
-  <p>Werde Teil der MineTrox-Community auf Discord:</p>
+<section style="text-align: center;">
+  <h2>Werde Teil unserer Community!</h2>
+  <p>Trete unserem Discord-Server bei, um Hilfe zu bekommen, Events zu erleben und mit anderen zu chatten:</p>
   <a class="discord-btn" href="https://discord.gg/zq6pcjEMqV" target="_blank">Discord beitreten</a>
 </section>
 
